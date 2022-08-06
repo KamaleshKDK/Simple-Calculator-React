@@ -1,0 +1,70 @@
+input {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(240, 240, 240);
+    height: 40px;
+    position: relative;
+    left: 379px;
+   justify-content: center;
+   align-items: center;
+   letter-spacing: 2px;
+   font-weight: 500;
+   font-size: 20px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.select{
+    text-align: center;
+    background-color: beige;
+    width: 50.5%;
+    height: 45px;
+    position: relative;
+    left: 379px;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+   font-size: 20px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calculate{
+    text-align: center;
+    width: 25.5%;
+    height: 45px;
+    position: relative;
+    left: 379px;
+    font-weight: 500;
+    background-color: aquamarine;
+   font-size: 20px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    text-align: center;
+    width: 25%;
+    height: 45px;
+    position: relative;
+    left: 379px;
+    background-color: aqua;
+    font-weight: 500;
+   font-size: 20px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.total{
+    text-align: center;
+    width: 50%;
+    height: 45px;
+    position: relative;
+    left: 379px;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+   background-color: rgb(255, 148, 148);
+   font-size: 20px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+text-align: center;
+letter-spacing: 2px;
+font:500;
+position: relative;
+    left: 25px;
+}

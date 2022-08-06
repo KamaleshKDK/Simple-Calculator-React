@@ -28,27 +28,24 @@ function Calculator() {
     }
     return (
         <>
-            <h1 className='title'>CALCULATOR</h1>
-            <div className='container'>
-                
-                    <input
-                        type="number"
-                        value={number1}
-                        placeholder="Enter a Number"
-                        onChange={(e) => setNumber1(e.target.value)}
-                        required
-                    />
-              
-                    <br/>
-                    <input
-                        type="number"
-                        value={number2}
-                        placeholder="Enter a Number"
-                        onChange={(e) => setNumber2(e.target.value)}
-                        required
-                    />
-                
-                <br/>
+            <div className='container-fluid'>
+                <h1 className='title'>CALCULATOR</h1>
+                <input
+                    type="number"
+                    value={number1}
+                    placeholder="Enter a Number"
+                    onChange={(e) => setNumber1(e.target.value)}
+                    required
+                />
+                <br />
+                <input
+                    type="number"
+                    value={number2}
+                    placeholder="Enter a Number"
+                    onChange={(e) => setNumber2(e.target.value)}
+                    required
+                />
+                <br />
                 <select className='select'>
                     <option onChang={() => setOperation("add")} value="add">Add ( + )</option>
                     <option onChang={() => setOperation("sub")} value="sub">Substract ( - )</option>
@@ -58,7 +55,6 @@ function Calculator() {
                 <br></br>
                 <button onClick={calculating} className="calculate">Calculate</button>
                 <button onClick={Clear} className="btn">Clear</button>
-                {/* <h3 className='total'>Total : {total}</h3> */}
                 <input className='total' value={total} placeholder="Total" />
             </div>
         </>
